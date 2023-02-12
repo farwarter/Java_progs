@@ -1,7 +1,6 @@
 import java.util.Scanner; //импорт класса Scanner из пакета java.util для последующего ввода числа
 
 public class Main {
-
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in); //создание объекта Scanner, в конструктор к-го передается объект System.in
         int number = in.nextInt(); //ввод числа - метод in.nextInt(); возвращает введенное с клавиатуры целочисленное значение
